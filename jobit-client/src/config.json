@@ -1,0 +1,11 @@
+{
+	"node" : "http://localhost:3000",
+	"proxy" : "http://localhost:3000/rest",
+	"backend" : "http://localhost:8080",
+	"domain" : {
+		"uri" : "http://localhost:3001",
+		"private_routes" : [
+			"/admin"
+		]
+	}
+}

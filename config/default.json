@@ -1,0 +1,28 @@
+{
+	"mongoURI" : "mongodb+srv://hongloc:PQyhNppghKvDNxKq@cluster0-wok7c.mongodb.net/job_it?retryWrites=true&w=majority",
+	"jwtSecret" : "oiZaU3Fkm331DeJm",
+	"backend" : {
+		"url" : "http://localhost:8080",
+		"clientId" : "jobit-client",
+		"secret" : "pdlwUv6NpwFZL4gx"
+	},
+	"frontend" : {
+		"url" : "http://localhost:3001"
+	},
+	"mailer" : {
+		"transport" : {
+			"host" : "smtp-mail.outlook.com",
+			"auth" : {
+				"user" : "talenthub-worldwide@hotmail.com",
+				"pass" : "talenthub-mailspace"
+			},
+			"service" : "hotmail",
+			"secureConnection" : false, // TLS requires secureConnection to be false
+			"port" : 587, // port for secure SMTP
+			"tls" : {
+				"ciphers" : "SSLv3"
+			},
+		}
+	}
+}
+//"mongodb+srv://hienvuong:23101999a@hienvuong-oumbl.gcp.mongodb.net/test?retryWrites=true&w=majority"
